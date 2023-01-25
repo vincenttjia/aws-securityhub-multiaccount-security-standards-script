@@ -125,7 +125,7 @@ let enable_disable_standards = async (aws_account_id, credentials) => {
 let main = async () => {
     let accessToken = get_access_token();
     aws_account_ids.forEach(async (aws_account_id) => {
-        let credentials = await get_role_credentials(aws_account_id ,accessToken);
+        let credentials = await get_role_credentials(aws_account_id, accessToken);
         enable_disable_standards(aws_account_id, credentials);
     });
 }
