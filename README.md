@@ -1,3 +1,5 @@
+# THIS SCRIPT IS DEPRECATED BY [https://aws.amazon.com/blogs/security/introducing-new-central-configuration-capabilities-in-aws-security-hub/](https://aws.amazon.com/blogs/security/introducing-new-central-configuration-capabilities-in-aws-security-hub/)
+
 # aws-securityhub-multiaccount-security-standards-script
 
 This script will help you to enable and disable Security Hub standards across multiple accounts.
